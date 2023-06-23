@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    header{
+        background-color: aqua;
+        padding: 30px;
+        font-size: 25px;
+        text-align: center;
+        color: brown;
+    }
+    nav { 
+        float: right;
+        width: 35%;
+        height: 416px;
+        background-color: darkseagreen;
+        padding: 22px;
+        margin-bottom: 5px
+        min: height 120px;
+       
+    }
+    article {
+        float: left;
+        width: 60%;
+        height: 403px;
+        padding: 28px;
+        background-color: rgba(17, 16, 17, 0.836);
+        color: red;
+        border: brown;
+        margin-top: 31px;
+        nav: left 40px;
+        margin-right: 0px;
+    }
+
+    section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    footer {
+        background-color: rgb(0, 0, 0);
+        padding: 5px;
+        font-size: 30px;
+        text-align:center;
+        color: green;
+        margin-left: 0px;
+        
+    }
+    @media(max-width: 600px){
+    nav, article{
+        width: 100%;
+        height: auto;
+    }
+
+    </style>
+</head>
+<body style="background-color: chartreuse;">
+    <header>
+<h1>welcome to my web page</h1>
+ <article> 
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  </article> 
+</header>
+<section>
+    <nav>
+    <ul>
+        <li><a href="#">nkkhan </a></li>
+        <li><a href="#">nafees</a></li>
+        <li><a href="https://www.google.com/search?q=nkkhan5598&rlz=1C1OKWM_enIN1024IN1024&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjeltGyzbz8AhU6h-YKHff2DxEQ_AUoAXoECAEQAw&biw=929&bih=932">my image</a></li>
+    </ul>
+
+</section>
+</nav>
+<footer>
+    <p><b> see the responsive effect </b> </p>
+</footer>
+</body>
+</html>
