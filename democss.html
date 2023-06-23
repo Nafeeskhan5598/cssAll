@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the top navigation bar */
+        .link {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .link a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .link a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .column {
+            float: left;
+            width: 31%;
+            padding: 72px;
+            font-size: 32px;
+        }
+
+        #myIDV {
+            padding: 165px 79px 98px;
+            width: 435px;
+            height: 427px;
+            border: 2px solid red;
+            animation: mymove 4s infinite;
+            margin: 108px 1067px;
+        }
+
+        @keyframes mymove {
+            50% {
+                border-top-right-radius: 150px;
+            }
+
+            50% {
+                border-bottom-left-radius: 150px;
+            }
+        }
+
+        #myIDVV {
+            padding: 165px 79px 98px;
+            width: 435px;
+            height: 427px;
+            border-top-style: groove;
+  border-top-color: coral;
+  border-top-width: 7px;
+            animation: mymove 5s infinite;
+            margin: -538px 556px 7px;
+        }
+
+        @keyframes mymove {
+            50% {
+                border-top-right-radius: 150px;
+            }
+
+            50% {
+                border-bottom-left-radius: 150px;
+            }
+        }
+        #myIDVVV {
+            padding: 165px 79px 98px;
+            width: 435px;
+            height: 427px;
+            border: 2px solid red;
+            animation: mymove 6s infinite;
+            margin: -433px 38px 7px;
+       
+        }
+
+        @keyframes mymove {
+            50% {
+                border-top-right-radius: 150px;
+               
+            }
+
+            50% {
+                border-bottom-left-radius: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Header</h1>
+
+        <p>resize the brouser window to see the responsible resource</p>
+    </div>
+    <div class="link">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+        <a href="#">link4</a>
+
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>column</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet
+                pretium urna. Vivamus venanatis velit nec neque ultricies,
+                eget element magna tristique QuisQue vehicula.
+            </p>
+        </div>
+        <div class="column">
+            <h2>column</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet
+                pretium urna. Vivamus venanatis velit nec neque ultricies,
+                eget element magna tristique QuisQue vehicula. </p>
+        </div>
+        <div class="column">
+            <h2>column</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet
+                pretium urna. Vivamus venanatis velit nec neque ultricies,
+                eget element magna tristique QuisQue vehicula. </p>
+
+        </div>
+    </div>
+    <div id="myIDV"></div>
+    <div id="myIDVV"></div>
+    <div id="myIDVVV"></div>
+</body>
+
+</html>

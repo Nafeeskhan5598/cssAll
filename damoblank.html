@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .first {
+            background-color: yellow;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            font-size: 50px;
+            top: 0px;
+        }
+
+        .header {
+            width: 100%;
+            height: 300px;
+            background-color: #1abc9c;
+            text-align: center;
+            font-size: 50px;
+            padding: 5px;
+
+        }
+
+        .link {
+            display: flex;
+            background-color: #333;
+        }
+
+        .link a {
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        .link a:hover {
+            background-color: #ddd;
+            color: black;
+
+        }
+
+        #container {
+            display: flex;
+  flex-wrap: wrap;
+        }
+
+        #container {
+            flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+        }
+
+        .imagel {
+            text-align: center;
+            color: black;
+            width: 401px;
+            height: 165px;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 30px;
+            background-color: #ddd;
+            margin: 184px -150px 120px -188px;
+        }
+
+        #text {
+            font-size: 9px;
+            text-align: center;
+            position: relative;
+            padding: 353px 82px 54px 10px;
+            font-family: inherit;
+        }
+
+        .fakeimage {
+            width: 150px;
+            height: 50px;
+            background-color: #ddd;
+            margin: 492px 125px 79px -213px;
+
+
+        }
+
+        .flex-container {
+            display: block;
+            flex-wrap: nowrap;
+            font-size: 20px;
+        }
+
+        .fakeimagee {
+            width: 150px;
+            height: 50px;
+            background-color: #ddd;
+            margin: -39px 125px 79px -213px;
+        }
+
+        .fakeimageee {
+            width: 150px;
+            height: 50px;
+            background-color: #ddd;
+            margin: -39px 125px 79px -213px;
+        }
+
+        .heading {
+            text-align: center;
+            margin: -790px -344px 4px 5px;
+        }
+
+        .box {
+            width: 1500px;
+            height: 300px;
+            background-color: #ddd;
+            margin: 55px -306px 171px 396px;
+            text-align: left;
+        }
+
+        .sometxt {
+            width: 715px;
+            height: 136px;
+            text-align: left;
+            margin: -170px 57px 86px 397px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            font-size: 40px;
+        }
+
+        .boxx {
+            width: 1255px;
+            height: 300px;
+            background-color: #ddd;
+            margin: -73px -275px -68px 404px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <h5>resize the browser window to see the responsive effect</h5>
+    </div>
+    <div class="header">
+        <h1>My Website</h1>
+        <h5>with a flexible layout</h5>
+    </div>
+    <div class="link">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+        <a href="#">link4</a>
+    </div>
+    <div id="container">
+        <h4>About Me</h4>
+        <h6>Photo of me</h6>
+
+        <div class="imagel"> image</div>
+        <div id="text">
+            <h3>Some text about me in culpa qui pfficia diserunt mollit anim..</h3>
+            <h2>More Text </h2>
+            <br>
+            <h3>lorem ipsum dolor sit ame.</h3>
+        </div>
+
+        <div class="flex-container">
+            <div class="fakeimage">image</div>
+            <div class="fakeimagee">image</div>
+            <div class="fakeimageee">image</div>
+        </div>
+    </div>
+
+
+    <div class="heading">
+        <h1>TITLE HEADING</h1>
+        <h4>title discription, dec,7,2017</h4>
+
+        <div class="box"> image</div>
+
+        <div class="sometxt">some text..
+            <h6>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur <br> adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco.
+            </h6>
+        </div>
+
+    </div>
+    <h2 style=" margin: 237px 57px 86px 397px;"> TITLE HEADING</h2>
+    <h4 style="margin: -75px 57px 86px 397px;">Title description, Sep 2, 2017</h4>
+
+    <div class="boxx">image</div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 1px;
+            background-color: #141b1e;
+            padding: 99px;
+            animation: mymove 5s infinite;
+            background: url(stock-photo-old-brick-black-.jpg);
+        }
+        .grid-container > div {
+            background-color: rgba(256, 256, 256, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            /* font-size: 30px; */
+
+        }
+        @keyframes mymove{
+            50%{grid-gap: 100px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation of the grid gap property</h1>
+    <div class="grid-container">
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div> 
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+        <div class="item1"><img src="fe4b4655014715b1e841fc32cec0136e.jpg" alt="image"></div>
+    
+    </div>
+</body>
+</html>

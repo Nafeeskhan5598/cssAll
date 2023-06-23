@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            padding: 0px;
+    height: 832px;
+    width: 300;
+    border: 10px solid black;
+       display: flex;
+       flex-direction: column-reverse;
+       align-content: space-around;
+       
+}
+
+#main div{
+    -ms-flex: 1;
+    flex: 1;
+}
+#myAquaDiv{
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    50%{flex: 3;}
+}
+.tiranga{
+    margin: -544px 572px 28px 837px;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div style="background-color: green;"> </div>
+    <div style="background-color:white;"  id="myAquaDiv">  </div>
+    <div style="background-color: orange;"> <h1 style="margin: 73px 74px 105px 772px">Happy Republic Day</h1></div>
+    </div>
+    <div class="tiranga"><img src="360_F_4230041022.jpg" alt="tiranga">
+    </div>
+</body>
+</html>

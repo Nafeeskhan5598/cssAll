@@ -1,0 +1,29 @@
+.fcontainer{
+display: flex;
+border: 2px soli rgb(226, 0, 0);
+height: 45vh;
+/* flex-direction:row; */
+/* justify-content:flex-start; */
+/* align-items:center; */
+/* flex-wrap: wrap; */
+}
+
+.fitem{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 12px;
+    width: 120px;
+    height: 120px;
+}
+.item1{
+    order: 3;
+
+    }
+.item4{
+    /* order: 2;
+    flex-grow: 3; */
+
+}
+.item3{
+    align-self: center;
+}
